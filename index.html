@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>RouteX - Migrate with Us</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('plain.jpg');
+            background-size: cover;        
+            background-position: center;  
+            background-repeat: no-repeat;  
+            color: #333;
+        }
+
+        header {
+            background-color: #0b3d2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            text-align: center;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+
+        nav a {
+            margin: 10px;
+            text-decoration: none;
+            color: #333;
+            font-weight: bold;
+        }
+
+       
+        .hero {
+            position: relative; 
+            background-image: url('wp6903430.webp');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            color: white;
+            text-align: center;
+            padding: 100px 20px;
+           
+        }
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0, 0, 0, 0.4); 
+            z-index: 0;
+        }
+        .hero > * {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin: 10px 0 20px 0;
+        }
+
+        .btn {
+            background-color: #75cf3b;
+            padding: 10px 20px;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        .section {
+            padding: 40px 20px;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.9);
+            margin-top: 40px;
+        }
+
+        .info-box {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            margin-top: 20px;
+        }
+
+        .info-box div {
+            border: 1px solid #ddd;
+            padding: 20px;
+            width: 250px;
+            border-radius: 8px;
+            background-color: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background-color: #0b3d2e;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 14px;
+            margin-top: 40px;
+        }
+
+        footer h3 {
+            margin-top: 0;
+        }
+
+        footer ul {
+            list-style-type: disc;
+            padding-left: 16px;
+            margin: 0;
+        }
+
+        footer a {
+            color: white;
+            text-decoration: none;
+        }
+
+        @media (max-width: 700px) {
+            .info-box {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .info-box div {
+                width: 90%;
+                max-width: 300px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>RouteX</h1>
+    <p>Need help? (307) 555-0133</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Story</a>
+    <a href="#">Visa</a>
+    <a href="#">Blog</a>
+    <a href="#">Contact</a>
+</nav>
+
+
+<section class="hero">
+    <h1>Journey with Confidence<br><span style="color: #75cf3b">Migrate</span> with Us</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <a href="#" class="btn">Learn More</a>
+</section>
+
+
+<section class="section">
+    <h2>About Us</h2>
+    <p>Unknown Wanderlust - Your Journey into</p>
+    <div class="info-box">
+        <div>
+            <h3>10+ Years Of Experience</h3>
+        </div>
+        <div>
+            <h3>Safety Guides</h3>
+            <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+        <div>
+            <h3>Passport Assistance</h3>
+            <p>Consectetur adipiscing elit.</p>
+        </div>
+    </div>
+    <a href="#" class="btn">Read More</a>
+</section>
+
+
+<section class="section">
+    <h2>Adventure Unleashed - Discover Your Next</h2>
+    <div class="info-box">
+        <div>
+            <h3>Food and Wine Tours</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div>
+            <h3>Travel Opportunities</h3>
+            <p>Sed sit amet nunc lorem ipsum.</p>
+        </div>
+        <div>
+            <h3>Solo Travel Planning</h3>
+            <p>Discover amazing places solo.</p>
+        </div>
+    </div>
+</section>
+
+
+<footer>
+    <div style="display: flex; flex-wrap: wrap; justify-content: space-around; text-align: left;">
+        <div>
+            <h3>RouteX</h3>
+            <p>Corporate business typically refers to large scale national enterprise or organization.</p>
+        </div>
+        <div>
+            <h3>Service Menu</h3>
+            <ul>
+                <li>Mistakes to avoid</li>
+                <li>Your startup</li>
+                <li>Know about forms</li>
+                <li>Know about fonts</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Useful Links</h3>
+            <ul>
+                <li><a href="#">Latest news</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">General categories</a></li>
+                <li><a href="#">Studies</a></li>
+            </ul>
+        </div>
+    </div>
+    <p>&copy; RouteX 2024 | All Rights Reserved</p>
+    <p>Terms & Conditions | Privacy Policy | Contact Us</p>
+</footer>
+
+</body>
+</html>
